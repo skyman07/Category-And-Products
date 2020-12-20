@@ -22,12 +22,20 @@ import com.codation.categoryandproduct.repository.SubChildCategoryRepository;
 
 @RestController
 @RequestMapping("/shopping")
+<<<<<<< HEAD
 public class HomeController {     
+=======
+public class HomeController {
+
+>>>>>>> 5dbdb0927cd4c34bdc07e9d8f7dbb3e361e06789
 	@Autowired
 	ServiceImpl serviceImpl;
 	@Autowired
 	SubChildCategoryRepository categoryRepository;
+<<<<<<< HEAD
                                                        // this is me
+=======
+>>>>>>> 5dbdb0927cd4c34bdc07e9d8f7dbb3e361e06789
 
 	@PostMapping("/category")
 	public ResponseEntity<String> addCategory(@RequestBody Category theCategory) {
